@@ -26,8 +26,11 @@ La biblioteca aspira a implementar los siguientes tipos de grafos:
 Para dar tratamiento a algunos problemas comunes en teoría de grafos se han implementado los siguientes algoritmos:
 
 - Árboles de expansión
+  - [ ] Boruvka
+  - [ ] Expected Linear Time
+  - [X] Kruskal
   - [X] Prim
-  - [ ] Kruskal
+  
 - Caminos más cortos
   - [X] Bellman-Ford
   - [X] Dial
@@ -47,7 +50,9 @@ Para dar tratamiento a algunos problemas comunes en teoría de grafos se han imp
   - [X] Colorable
   - [X] Greedy
 - Redes de flujo
+  - [ ] Dinic
   - [X] Ford-Fulkerson
+  - [ ] Push-Relabel
   
 ## Primeros pasos
 
