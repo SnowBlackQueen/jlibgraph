@@ -31,8 +31,9 @@ public class DinicAlgorithmTest {
 
     /**
      * @param args the command line arguments
+     * @throws java.lang.CloneNotSupportedException
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         WeightedGraph<Integer> graph = GraphBuilders.makeSimpleWeightedGraph(true);
 
         for (int i = 0; i < 6; ++i)
@@ -53,6 +54,7 @@ public class DinicAlgorithmTest {
         System.out.println(graph);
 
         System.out.println("Dinic Algorithm for Maximum Flow: ");
+        //tiene que devolver como máximo flujo = 23!!!!!
         System.out.println(new DinicAlgorithm(graph, graph.iterator(0), graph.iterator(5)).apply().get());
     }
     
